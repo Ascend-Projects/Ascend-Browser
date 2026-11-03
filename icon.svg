@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs><linearGradient id="sky" x1="20" x2="108" y1="10" y2="118" gradientUnits="userSpaceOnUse"><stop stop-color="#6ce1d4"/><stop offset="1" stop-color="#2b83ae"/></linearGradient></defs>
+  <rect width="128" height="128" rx="28" fill="#0b1018"/>
+  <path fill="url(#sky)" d="M64 11 116 40v48l-52 29L12 88V40L64 11Zm0 14L25 47v34l39 22 39-22V47L64 25Z"/>
+  <path fill="#d8fff9" d="m64 37 27 16v31l-27 16-27-16V53l27-16Zm0 14-15 9v17l15 9 15-9V60l-15-9Z"/>
+  <circle cx="64" cy="67" r="8" fill="#35c9bd"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "title": "Ascend Browser",
+  "description": "A private, dark-themed Gecko browser with a custom Ascend interface for Windows",
+  "icon": "icon.svg",
+  "platform": "win32"
+}
