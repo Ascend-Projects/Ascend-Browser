@@ -1,0 +1,24 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\Ascend-Browser>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git commit -m "Add 15 files, Update README.md"
+[main 006a210] Add 15 files, Update README.md
+ 16 files changed, 477 insertions(+), 1 deletion(-)
+ create mode 100644 app/build.py
+ create mode 100644 app/patches/apply_ascend.py
+ create mode 100644 app/profile-template/user.js
+ create mode 100644 app/profile-template/userChrome.css
+ create mode 100644 app/setup.py
+ create mode 100644 app/start_browser.py
+ create mode 100644 app/update_source.py
+ create mode 100644 build.js
+ create mode 100644 icon.svg
+ create mode 100644 install.js
+ create mode 100644 pinokio.js
+ create mode 100644 pinokio.json
+ create mode 100644 reset.js
+ create mode 100644 start.js
+ create mode 100644 update.js
+
+(base) C:\pinokio\api\Ascend-Browser>

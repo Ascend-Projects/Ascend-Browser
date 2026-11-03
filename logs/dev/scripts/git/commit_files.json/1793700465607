@@ -1,0 +1,9 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\Ascend-Browser>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git commit -m "Update 4 files"
+[main 920b25f] Update 4 files
+ 4 files changed, 68 insertions(+), 13 deletions(-)
+
+(base) C:\pinokio\api\Ascend-Browser>

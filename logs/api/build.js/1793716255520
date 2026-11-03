@@ -1,0 +1,9 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\Ascend-Browser\app>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && C:\pinokio\bin\miniforge\python.exe build.py
+MozillaBuild Install Directory: C:\mozilla-build\
+/usr/bin/bash: line 1: ./mach: No such file or directory
+
+(base) C:\pinokio\api\Ascend-Browser\app>

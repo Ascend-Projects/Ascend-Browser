@@ -1,0 +1,7 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\Ascend-Browser>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git add -- "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\ascend-mark.svg" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\default128.png" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\default16.png" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\default22.png" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\default24.png" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\default256.png" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\default32.png" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\default48.png" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\default64.png" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\firefox.ico" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\firefox64.ico" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\newtab.ico" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\newwindow.ico" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\pbmode.ico" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\wizHeader.bmp" "C:\\pinokio\\api\\Ascend-Browser\\app\\branding\\wizWatermark.bmp" "C:\\pinokio\\api\\Ascend-Browser\\app\\patches\\generate_brand_assets.py" "C:\\pinokio\\api\\Ascend-Browser\\app\\profile-template\\startpage.html"
+
+(base) C:\pinokio\api\Ascend-Browser>

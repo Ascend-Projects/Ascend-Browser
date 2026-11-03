@@ -1,0 +1,14 @@
+[api shell.run]
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\pinokio\api\Ascend-Browser>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git commit -m "Update 4 files"
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+deleted:    app/MozillaBuildSetup-4.2.1.exe
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+(base) C:\pinokio\api\Ascend-Browser>
