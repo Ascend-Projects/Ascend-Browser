@@ -1,0 +1,119 @@
+/* Ascend's compact midnight chrome: graphite surfaces, teal focus, quiet tabs. */
+:root {
+  color-scheme: dark !important;
+  --toolbar-bgcolor: #0b1018 !important;
+  --toolbar-color: #e6edf7 !important;
+  --lwt-accent-color: #0b1018 !important;
+  --lwt-text-color: #e6edf7 !important;
+  --toolbar-field-background-color: #131c29 !important;
+  --toolbar-field-color: #f2f6fc !important;
+  --toolbar-field-border-color: #26364a !important;
+  --tab-selected-bgcolor: #182535 !important;
+  --tab-min-height: 34px !important;
+}
+
+#navigator-toolbox,
+#TabsToolbar,
+#nav-bar,
+#PersonalToolbar {
+  background: #0b1018 !important;
+  color: #e6edf7 !important;
+}
+
+#navigator-toolbox {
+  border-bottom: 1px solid #1c2939 !important;
+  padding: 5px 8px 7px !important;
+}
+
+#TabsToolbar {
+  padding-inline: 8px !important;
+}
+
+#tabbrowser-tabs {
+  --tab-border-radius: 10px !important;
+}
+
+.tabbrowser-tab {
+  padding-inline: 3px !important;
+}
+
+.tabbrowser-tab .tab-background {
+  border-radius: 10px 10px 7px 7px !important;
+  margin-block: 3px !important;
+  background: transparent !important;
+  transition: background-color 120ms ease !important;
+}
+
+.tabbrowser-tab:hover .tab-background {
+  background: #121d2a !important;
+}
+
+.tabbrowser-tab[selected] .tab-background {
+  background: linear-gradient(145deg, #1c2c3e, #152231) !important;
+  box-shadow: inset 0 1px #35c9bd, 0 2px 8px #0005 !important;
+}
+
+.tabbrowser-tab .tab-label {
+  color: #aebbc9 !important;
+}
+
+.tabbrowser-tab[selected] .tab-label {
+  color: #f3f7fc !important;
+}
+
+#nav-bar {
+  border: 0 !important;
+  padding: 3px 8px 5px !important;
+}
+
+#urlbar-container {
+  margin-inline: 8px !important;
+}
+
+#urlbar-background,
+#searchbar {
+  border: 1px solid #26364a !important;
+  border-radius: 13px !important;
+  background: #131c29 !important;
+  box-shadow: inset 0 1px 2px #0004 !important;
+}
+
+#urlbar[focused="true"] > #urlbar-background,
+#urlbar[open] > #urlbar-background {
+  border-color: #35c9bd !important;
+  box-shadow: 0 0 0 2px #35c9bd30 !important;
+}
+
+#identity-box,
+#tracking-protection-icon-container {
+  border-radius: 10px !important;
+}
+
+.toolbarbutton-1 > .toolbarbutton-icon,
+.toolbarbutton-1 > .toolbarbutton-badge-stack {
+  border-radius: 9px !important;
+}
+
+.toolbarbutton-1:hover > .toolbarbutton-icon,
+.toolbarbutton-1:hover > .toolbarbutton-badge-stack {
+  background-color: #1a2938 !important;
+}
+
+#PersonalToolbar {
+  padding-inline: 12px !important;
+  border: 0 !important;
+}
+
+menupopup,
+panel {
+  --panel-background: #111a26 !important;
+  --panel-color: #e6edf7 !important;
+  --panel-border-color: #26364a !important;
+}
+
+#statuspanel-label {
+  border: 1px solid #26364a !important;
+  border-radius: 8px !important;
+  background: #111a26 !important;
+  color: #e6edf7 !important;
+}

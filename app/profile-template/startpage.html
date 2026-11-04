@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Ascend Browser</title>
+  <style>
+    :root { color-scheme: dark; font: 16px/1.5 "Segoe UI", system-ui, sans-serif; background: #090e15; color: #e7eef8; }
+    * { box-sizing: border-box; }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; overflow: hidden; background: radial-gradient(ellipse at 50% 36%, #173247 0, #0d1824 35%, #090e15 72%); }
+    body::before, body::after { content: ""; position: fixed; pointer-events: none; border: 1px solid #35c9bd12; border-radius: 50%; width: 70vw; aspect-ratio: 1; }
+    body::after { width: 100vw; }
+    main { position: relative; width: min(680px, calc(100vw - 36px)); margin-top: -6vh; text-align: center; }
+    .brand { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 12px; }
+    .mark { width: 46px; height: 46px; filter: drop-shadow(0 0 18px #35c9bd55); }
+    h1 { margin: 0; font-size: 21px; line-height: 1; font-weight: 650; letter-spacing: .24em; }
+    .tagline { margin: 0 0 32px; color: #8ea2b8; font-size: 14px; letter-spacing: .035em; }
+    form { display: flex; align-items: center; gap: 12px; height: 60px; padding: 7px 8px 7px 20px; border: 1px solid #32475a; border-radius: 18px; background: #111c28e8; box-shadow: 0 18px 70px #0006, inset 0 1px #ffffff0a; transition: border-color .15s, box-shadow .15s; }
+    form:focus-within { border-color: #35c9bd; box-shadow: 0 0 0 3px #35c9bd24, 0 18px 70px #0006; }
+    input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: #eff6ff; font: inherit; }
+    input::placeholder { color: #8293a6; }
+    button { display: grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: 13px; background: #35c9bd; color: #071517; cursor: pointer; }
+    button:hover { background: #6ce1d4; }
+    .hint { margin-top: 15px; color: #65798e; font-size: 12px; }
+    .foot { position: fixed; bottom: 24px; color: #506276; font-size: 12px; letter-spacing: .04em; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="a" x1="5" x2="43" y1="4" y2="44" gradientUnits="userSpaceOnUse"><stop stop-color="#6ce1d4"/><stop offset="1" stop-color="#2b83ae"/></linearGradient></defs><path fill="url(#a)" d="M24 3 44 14.5v19L24 45 4 33.5v-19L24 3Zm0 5.3L9 17v14l15 8.7L39 31V17L24 8.3Z"/><path fill="#d8fff9" d="m24 13 10 5.8v10.4L24 35l-10-5.8V18.8L24 13Zm0 5.2-5.5 3.2v6.3L24 30.9l5.5-3.2v-6.3L24 18.2Z"/><circle cx="24" cy="24" r="3.2" fill="#35c9bd"/></svg>
+      <h1>ASCEND</h1>
+    </div>
+    <p class="tagline">A quieter way to explore.</p>
+    <form action="https://duckduckgo.com/" method="get">
+      <input name="q" type="search" placeholder="Search privately or enter an address" aria-label="Search the web" autofocus>
+      <button type="submit" aria-label="Search"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.4 4.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </form>
+    <div class="hint">Search powered by DuckDuckGo · No account required</div>
+  </main>
+  <div class="foot">ASCEND BROWSER</div>
+</body>
+</html>
