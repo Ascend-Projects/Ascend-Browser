@@ -1,8 +1,0 @@
-[api shell.run]
-Microsoft Windows [Version 10.0.26200.9457]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\pinokio\api\Ascend-Browser>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git add -- "C:\\pinokio\\api\\Ascend-Browser\\README.md" "C:\\pinokio\\api\\Ascend-Browser\\app\\build.py" "C:\\pinokio\\api\\Ascend-Browser\\app\\patches\\apply_ascend.py" "C:\\pinokio\\api\\Ascend-Browser\\app\\profile-template\\userChrome.css" "C:\\pinokio\\api\\Ascend-Browser\\app\\start_browser.py" "C:\\pinokio\\api\\Ascend-Browser\\icon.svg" "C:\\pinokio\\api\\Ascend-Browser\\pinokio.js" "C:\\pinokio\\api\\Ascend-Browser\\pinokio.json"
-warning: in the working copy of 'icon.svg', LF will be replaced by CRLF the next time Git touches it
-
-(base) C:\pinokio\api\Ascend-Browser>

@@ -1,9 +1,0 @@
-[api shell.run]
-Microsoft Windows [Version 10.0.26200.9457]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\pinokio\api\Ascend-Browser>conda_hook & conda deactivate & conda deactivate & conda deactivate & conda activate base && git commit -m "Add 18 files, Update 8 files"
-[main 8b64c79] Add 18 files, Update 8 files
- 7 files changed, 5 insertions(+), 9 deletions(-)
-
-(base) C:\pinokio\api\Ascend-Browser>
