@@ -1,16 +1,10 @@
 {
   "policies": {
-    "DisableAppUpdate": {
-      "enabled": true
-    },
-    "DisablePocketIntegration": {
-      "disabled": true
-    },
-    "DisableTelemetry": {
-      "value": false
-    },
-    "DisableSafeBrowsing": {
-      "disabled": true
-    }
+    "DisableTelemetry": true,
+    "DisableFirefoxStudies": true,
+    "DisablePocket": true,
+    "DisableAppUpdate": true,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": ""
   }
 }
