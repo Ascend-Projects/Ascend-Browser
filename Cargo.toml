@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "ascend-installer",
+    "ascend-core",
+]
+resolver = "2"

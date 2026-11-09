@@ -1,6 +1,6 @@
 # Ascend Browser
 
-Ascend Browser is a privacy-first browser built using Rust.
+Ascend Browser is a privacy-first browser in the family of firefox rebuilt using Rust.
 
 ## Prerequisites
 

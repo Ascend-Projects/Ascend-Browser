@@ -1,0 +1,10 @@
+[package]
+name = "ascend-installer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.38", features = ["full"] }
+reqwest = { version = "0.12", features = ["stream"] }
+zip = "2.1"
+futures-util = "0.3"

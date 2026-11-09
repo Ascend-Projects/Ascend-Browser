@@ -1,0 +1,16 @@
+{
+  "policies": {
+    "DisableAppUpdate": {
+      "enabled": true
+    },
+    "DisablePocketIntegration": {
+      "disabled": true
+    },
+    "DisableTelemetry": {
+      "value": false
+    },
+    "DisableSafeBrowsing": {
+      "disabled": true
+    }
+  }
+}
